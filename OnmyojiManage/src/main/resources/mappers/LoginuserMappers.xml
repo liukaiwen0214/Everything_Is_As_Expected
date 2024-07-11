@@ -7,7 +7,7 @@
 
     <!--获取list-->
     <select id="getLoginUserPojoList" resultType="org.example.pojo.LoginUserPojo">
-        select * from
+        select * from loginusertable;
     </select>
 
 </mapper>

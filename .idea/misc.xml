@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/OnmyojiManage/pom.xml" />
+        <option value="$PROJECT_DIR$/TestLearning/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMvc12/pom.xml" />
       </list>
     </option>
   </component>

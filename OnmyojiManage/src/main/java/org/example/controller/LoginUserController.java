@@ -26,7 +26,7 @@ public class LoginUserController {
         return page;
     }
 
-        @RequestMapping(value = "/OnmyojiManage", method = RequestMethod.GET)
+    @RequestMapping(value = "/OnmyojiManage", method = RequestMethod.GET)
     @ResponseBody
     public List<LoginUserPojo> getAllEmployee(){
         //查询所有的员工信息
