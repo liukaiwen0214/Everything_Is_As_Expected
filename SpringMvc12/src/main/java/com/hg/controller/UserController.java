@@ -5,10 +5,8 @@ import com.hg.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import javax.annotation.Resource;
 
-//import javax.annotation.Resource;
 @Controller
 public class UserController {
     @Resource
@@ -20,8 +18,7 @@ public class UserController {
         model.addAttribute("user", u);
         if (u != null) {
             return "logok";
-        } else
-            return "logno";
+        } else return "logno";
     }
 
 

@@ -5,9 +5,12 @@
 
 <mapper namespace="org.example.mapper.LoginUserMapper">
 
-    <!--获取list-->
-    <select id="getLoginUserPojoList" resultType="org.example.pojo.LoginUserPojo">
-        select * from loginusertable;
+    <!--用户登陆 #{login_User_Name},#{login_User_Password}-->
+    <select id="UserLogin" resultType="java.lang.Integer">
+        select *
+        from loginusertable
+        where Login_User_Name = 'admin'
+          and Login_User_Password = 123456
     </select>
 
 </mapper>

@@ -7,18 +7,7 @@ import java.util.List;
 
 public interface LoginUserService {
     /**
-     * 查询所有的员工信息
-     *
-     * @return
+     * 用户登陆
      */
-    List<LoginUserPojo> getAllLoginUser();
-
-
-    /**
-     * 获取员工的分页信息
-     *
-     * @param pageNum
-     * @return
-     */
-    PageInfo<LoginUserPojo> getEmployeePage(Integer pageNum);
+    int UserLogin(LoginUserPojo userPojo);
 }
