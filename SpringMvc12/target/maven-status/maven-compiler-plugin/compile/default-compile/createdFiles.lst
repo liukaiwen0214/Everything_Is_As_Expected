@@ -1,6 +1,0 @@
-com/hg/service/UserService.class
-com/hg/pojo/User.class
-com/hg/controller/UserController.class
-com/hg/dao/UserMapper.class
-com/hg/controller/PagesController.class
-com/hg/service/Impl/UserServiceImpl.class

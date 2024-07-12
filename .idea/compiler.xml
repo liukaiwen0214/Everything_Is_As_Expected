@@ -8,10 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="OnmyojiManage" />
-        <module name="SpringMvc12" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringMvc12" target="1.8" />
       <module name="TestLearning" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -9,6 +9,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/SpringMvc12/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="Web3">
@@ -19,6 +23,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/.smarttomcat/TestLearning/conf" relative="/WEB-INF" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="Web2">
@@ -29,6 +37,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/.smarttomcat/OnmyojiManage/conf" relative="/WEB-INF" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="Web5">
@@ -39,6 +51,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/.smarttomcat/SpringMvc12/conf" relative="/WEB-INF" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="Web4">
@@ -49,6 +65,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/SpringMvc12/target/SpringMvc12-1.0-SNAPSHOT" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringMvc12/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>

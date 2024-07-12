@@ -5,6 +5,6 @@ import org.example.pojo.LoginUserPojo;
 
 public interface LoginUserMapper {
 
-   int UserLogin(LoginUserPojo userPojo);
+   LoginUserPojo UserLogin(LoginUserPojo loginUserPojo);
 
 }
