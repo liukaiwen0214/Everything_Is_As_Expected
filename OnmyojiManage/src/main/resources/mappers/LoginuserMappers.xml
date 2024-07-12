@@ -6,11 +6,11 @@
 <mapper namespace="org.example.mapper.LoginUserMapper">
 
     <!--用户登陆 #{login_User_Name},#{login_User_Password}-->
-    <select id="UserLogin" resultType="java.lang.Integer">
+    <select id="UserLogin" resultType="org.example.pojo.LoginUserPojo">
         select *
         from loginusertable
-        where Login_User_Name = 'admin'
-          and Login_User_Password = 123456
+        where Login_User_Name = #{param1}
+          and Login_User_Password = #{param2}
     </select>
 
 </mapper>

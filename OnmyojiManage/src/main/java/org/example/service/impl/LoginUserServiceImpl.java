@@ -5,6 +5,7 @@ import org.example.mapper.LoginUserMapper;
 import org.example.service.LoginUserService;
 import org.example.pojo.LoginUserPojo;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 
@@ -14,9 +15,8 @@ public class LoginUserServiceImpl implements LoginUserService {
     @Resource
     private LoginUserMapper loginUserMapper;
 
-
     @Override
-    public LoginUserPojo UserLogin(LoginUserPojo loginUserPojo) {
-        return loginUserMapper.UserLogin(loginUserPojo);
+    public LoginUserPojo UserLogin(String username, String password) {
+        return loginUserMapper.UserLogin(username, password);
     }
 }
